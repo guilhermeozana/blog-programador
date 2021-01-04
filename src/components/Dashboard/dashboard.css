@@ -1,0 +1,48 @@
+ div#dashboard{
+     width: 100%;
+     max-width: 930px;
+     display: flex;
+     flex-direction: column;
+     margin: 30px auto;
+     padding: 0 30px;
+ }
+
+ div#dashboard h1{
+    flex-direction: column;
+    margin-bottom: 20px;
+ }
+
+ div#dashboard .user-painel{
+     height: 125px;
+     margin-top: 20px;
+     background: #FFF;
+     border: 1px solid #DDD;
+     display: flex;
+     flex-direction: column;
+    
+ }
+
+ div#dashboard .user-painel a{
+     width: 100px;
+     padding: 5px;
+     margin: 20px;
+     border-radius: 4px;
+     font-size: 20px;
+     background-color: #FF0000;
+     color: #FFF;
+     text-decoration: none;
+     text-align: center;
+ }
+
+ div#dashboard .user-painel button{  
+    width: 55px;
+    padding: 5px;
+    margin: 20px;
+    margin-top: -3px;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: #808080;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
